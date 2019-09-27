@@ -3,6 +3,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 
+/*/////////////////////////////////*/
+import {position} from 'base/axios';
+Vue.prototype.$position = position;
+/*/////////////////////////////////*/
+
 Vue.config.productionTip = false
 
 new Vue({

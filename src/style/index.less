@@ -1,0 +1,22 @@
+@import '~style/mixin.less';
+@import '~style/variable.less';
+
+p,h1,h2,h3,h4,h5,h6,input,td,ul,ol,dl,dd,hr,option,textarea,fieldset,legend{margin:0; padding:0;}
+img{display: block; border:none;}
+input{outline: none;}
+
+ul,li{
+  list-style: none;
+}
+
+body{
+	line-height: 1.6;
+	font-family: -apple-system-font,Helvetica Neue,sans-serif;
+}
+.clear:after{
+	content: "";
+	display: block;
+	clear: both;
+	height:0;
+	visibility: hidden;
+}
